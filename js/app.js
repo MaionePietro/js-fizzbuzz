@@ -13,5 +13,6 @@ for(i ; i<=100 ; i++){
     }else {
         console.log(i);
         stamp.innerHTML += '<h1></h1>';
+        stamp.innerHTML += i;
     }
 }
