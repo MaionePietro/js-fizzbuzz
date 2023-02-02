@@ -12,7 +12,7 @@ for(i ; i<=100 ; i++){
         stamp.innerHTML += ' <h1>Buzz</h1>';
     }else {
         console.log(i);
-        stamp.innerHTML += '<h1></h1>';
-        stamp.innerHTML += i;
+        stamp.innerHTML += '<h1>'+i+'</h1>';
+        
     }
 }
